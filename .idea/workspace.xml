@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="phase2:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a705b44-6110-4d36-adf4-816db76655f6" name="Default Changelist" comment="Made getFrequentTraders have better time complexity." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="1342d2704169f9905b5d55716e7a76eb62a678a3" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1fNEl3UfGvhUrsXfuTFu689Bgo9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/LifeOnTheFarm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilan\IdeaProjects\Repositories\group_0056\phase2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="frontend.Main" />
+      <module name="phase2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="phase2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTrade" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTradingInfo" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="phase2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTradingInfo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTradingInfo.testSuggestTrade" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="phase2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTradingInfo" />
+      <option name="METHOD_NAME" value="testSuggestTrade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TestTrade" />
+      <item itemvalue="JUnit.TestTradingInfo" />
+      <item itemvalue="JUnit.TestTradingInfo.testSuggestTrade" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestTrade" />
+        <item itemvalue="JUnit.TestTrade" />
+        <item itemvalue="JUnit.TestTrade" />
+        <item itemvalue="JUnit.TestTrade" />
+        <item itemvalue="JUnit.TestTrade" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a705b44-6110-4d36-adf4-816db76655f6" name="Default Changelist" comment="" />
+      <created>1596050297025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596050297025</updated>
+    </task>
+    <task id="LOCAL-00080" summary="SettingsManager added and implemented">
+      <created>1596853977721</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1596853977721</updated>
+    </task>
+    <task id="LOCAL-00081" summary="HandleFrozenManager fixed.">
+      <created>1596855680794</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1596855680794</updated>
+    </task>
+    <task id="LOCAL-00082" summary="HandleFrozenRequestsManager fixed.">
+      <created>1596855719112</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1596855719112</updated>
+    </task>
+    <task id="LOCAL-00083" summary="LoginManager fixed.">
+      <created>1596856039619</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1596856039619</updated>
+    </task>
+    <task id="LOCAL-00084" summary="MessageManager fixed.">
+      <created>1596856088244</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1596856088244</updated>
+    </task>
+    <task id="LOCAL-00085" summary="ReportManager fixed.">
+      <created>1596856140939</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1596856140939</updated>
+    </task>
+    <task id="LOCAL-00086" summary="ItemQuery and TradeQuery fixed.">
+      <created>1596856463143</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1596856463143</updated>
+    </task>
+    <task id="LOCAL-00087" summary="ExactWishlistSuggestion fixed.">
+      <created>1596856578988</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1596856578989</updated>
+    </task>
+    <task id="LOCAL-00088" summary="SimilarWishlistSuggestion fixed.">
+      <created>1596856604125</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1596856604125</updated>
+    </task>
+    <task id="LOCAL-00089" summary="TraderManager fixed.">
+      <created>1596856821489</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1596856821489</updated>
+    </task>
+    <task id="LOCAL-00090" summary="TradingInfoManager fixed.">
+      <created>1596856857469</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1596856857469</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Fixed TradingManager">
+      <created>1596856920920</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1596856920920</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Forgot a semicolon in TradingManager">
+      <created>1596856957495</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1596856957495</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Changed stuff frozen manager stuff to list.">
+      <created>1596858830103</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1596858830103</updated>
+    </task>
+    <task id="LOCAL-00094" summary="getShouldBeFrozen now only returns users that are not frozen">
+      <created>1596859047523</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1596859047523</updated>
+    </task>
+    <task id="LOCAL-00095" summary="featureBugTesting.txt added.">
+      <created>1596859660933</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1596859660933</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Get all unfreeze requests fixed">
+      <created>1596861336400</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1596861336400</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Fixed getAllItemRequests exception handling stuff.&#10;This program is making me (╯°Д°)╯︵/(.□ . \). Time to de stress.">
+      <created>1596862262084</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1596862262084</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Ser files">
+      <created>1596862368455</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1596862368455</updated>
+    </task>
+    <task id="LOCAL-00099" summary="trade properties file">
+      <created>1596862502521</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1596862502521</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Trying to push previous changes, hopefully this will fix it.">
+      <created>1596862586179</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1596862586179</updated>
+    </task>
+    <task id="LOCAL-00101" summary="ser files">
+      <created>1596862632004</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1596862632004</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Fixed edit trade not working for the user who sent the trade.">
+      <created>1596910029525</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1596910029526</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Fixed edit trade not showing the correct edit amount left for each user.">
+      <created>1596911409574</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1596911409574</updated>
+    </task>
+    <task id="LOCAL-00104" summary="TradeQuery javadoc.">
+      <created>1596911488734</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1596911488734</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Fixed unimportant exception being thrown and added todos to frontend.md">
+      <created>1596913227634</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1596913227634</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Removed some features from featureBugTesting.txt and updated readme.txt with some more info on trade limits.">
+      <created>1596913798896</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1596913798896</updated>
+    </task>
+    <task id="LOCAL-00107" summary="TradingManager now has more rigorous invalid request checks and updates trade count on accept rather than on confirm.">
+      <created>1596916632974</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1596916632974</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Fixed bug where refreshTradeCount would pass null to updateUserDatabase">
+      <created>1596916879957</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1596916879957</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Fixed setFrozen to remove un-freeze request if setFrozen is passed &quot;false&quot;">
+      <created>1596917834405</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1596917834405</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Removed the last item that needed changing from frontend.md">
+      <created>1596917878487</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1596917878487</updated>
+    </task>
+    <task id="LOCAL-00111" summary="SeR fIlEs">
+      <created>1596918284580</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1596918284580</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Fixed GUI misleading information about amount of trade edits">
+      <created>1596921034900</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1596921034900</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Refactor and frontend.md with a GUI problem.">
+      <created>1596921697345</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1596921697345</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Suggestions now dont offer frozen traders (i think).">
+      <created>1596924821908</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1596924821908</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Added removeInvalidWishlistItems so that there is less of a chance exceptions get thrown.">
+      <created>1596925812995</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1596925812995</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Accept my push please">
+      <created>1596926198059</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1596926198059</updated>
+    </task>
+    <task id="LOCAL-00117" summary="removed featureBugTesting.txt">
+      <created>1596926245772</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1596926245772</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Front end errors fixed.">
+      <created>1596926939394</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1596926939394</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Back end errors fixed.">
+      <created>1596927232557</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1596927232557</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Javadoc">
+      <created>1596927781449</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1596927781449</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Combined strategy interface and added javadoc to backend.">
+      <created>1596932620429</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1596932620429</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Backend javadoc">
+      <created>1596933623686</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1596933623686</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Backend javadoc">
+      <created>1596933747562</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1596933747562</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Added thing to do in frontend.md and readied the class for JAR development">
+      <created>1596934337824</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1596934337824</updated>
+    </task>
+    <task id="LOCAL-00125" summary="readme.txt and features.txt has more info in them now.">
+      <created>1596941225123</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1596941225123</updated>
+    </task>
+    <task id="LOCAL-00126" summary="backendUML.drawio TradableItem and Trade done.">
+      <created>1596945276557</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1596945276557</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Backend uml done.">
+      <created>1597000187447</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1597000187448</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Backend design UML png added">
+      <created>1597000321518</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1597000321518</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/dependencyfix" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TradeQuery javadoc." />
+    <MESSAGE value="Fixed unimportant exception being thrown and added todos to frontend.md" />
+    <MESSAGE value="Removed some features from featureBugTesting.txt and updated readme.txt with some more info on trade limits." />
+    <MESSAGE value="TradingManager now has more rigorous invalid request checks and updates trade count on accept rather than on confirm." />
+    <MESSAGE value="Fixed bug where refreshTradeCount would pass null to updateUserDatabase" />
+    <MESSAGE value="Fixed setFrozen to remove un-freeze request if setFrozen is passed &quot;false&quot;" />
+    <MESSAGE value="Removed the last item that needed changing from frontend.md" />
+    <MESSAGE value="SeR fIlEs" />
+    <MESSAGE value="Fixed GUI misleading information about amount of trade edits" />
+    <MESSAGE value="Refactor and frontend.md with a GUI problem." />
+    <MESSAGE value="Suggestions now dont offer frozen traders (i think)." />
+    <MESSAGE value="Added removeInvalidWishlistItems so that there is less of a chance exceptions get thrown." />
+    <MESSAGE value="Accept my push please" />
+    <MESSAGE value="removed featureBugTesting.txt" />
+    <MESSAGE value="Front end errors fixed." />
+    <MESSAGE value="Back end errors fixed." />
+    <MESSAGE value="Javadoc" />
+    <MESSAGE value="Combined strategy interface and added javadoc to backend." />
+    <MESSAGE value="Backend javadoc" />
+    <MESSAGE value="Added thing to do in frontend.md and readied the class for JAR development" />
+    <MESSAGE value="Random commit dont worry" />
+    <MESSAGE value="readme.txt and features.txt has more info in them now." />
+    <MESSAGE value="backendUML.drawio TradableItem and Trade done." />
+    <MESSAGE value="Backend uml done." />
+    <MESSAGE value="Backend design UML png added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backend design UML png added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="651" y="255" key="#Inspections" timestamp="1596926340084">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="651" y="255" key="#Inspections/0.0.2048.1152@0.0.2048.1152" timestamp="1596926340084" />
+    <state x="910" y="439" key="#Notifications" timestamp="1596862398196">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="910" y="439" key="#Notifications/0.0.2048.1152@0.0.2048.1152" timestamp="1596862398196" />
+    <state x="505" y="151" key="#Project_Structure" timestamp="1596938361186">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="505" y="151" key="#Project_Structure/0.0.2048.1152@0.0.2048.1152" timestamp="1596938361186" />
+    <state x="479" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596759041405">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="479" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1596759041405" />
+    <state x="93" y="93" width="1862" height="966" maximized="true" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1596844110027">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="93" y="93" width="1862" height="966" maximized="true" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1596844110027" />
+    <state x="830" y="292" key="#com.intellij.ide.util.MemberChooser" timestamp="1596741078677">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="830" y="292" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1596741078677" />
+    <state x="755" y="367" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596935747333">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="755" y="367" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1596935747333" />
+    <state x="618" y="501" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596700510387">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="618" y="501" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1596700510387" />
+    <state x="799" y="445" width="502" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596931964602">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="799" y="445" width="502" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2048.1152@0.0.2048.1152" timestamp="1596931964602" />
+    <state x="755" y="323" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596932427492">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="755" y="323" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1596932427492" />
+    <state x="780" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596933714155">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="780" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2048.1152@0.0.2048.1152" timestamp="1596933714155" />
+    <state x="127" y="22" width="1862" height="965" key="DiffContextDialog" timestamp="1597031573142">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="127" y="22" width="1862" height="965" key="DiffContextDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1597031573142" />
+    <state x="805" y="331" key="FileChooserDialogImpl" timestamp="1596934536071">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="805" y="331" key="FileChooserDialogImpl/0.0.2048.1152@0.0.2048.1152" timestamp="1596934536071" />
+    <state width="2005" height="270" key="GridCell.Tab.0.bottom" timestamp="1596941268572">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2005" height="270" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1596941268572" />
+    <state width="2005" height="270" key="GridCell.Tab.0.center" timestamp="1596941268571">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2005" height="270" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1596941268571" />
+    <state width="2005" height="270" key="GridCell.Tab.0.left" timestamp="1596941268571">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2005" height="270" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1596941268571" />
+    <state width="2005" height="270" key="GridCell.Tab.0.right" timestamp="1596941268572">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2005" height="270" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1596941268572" />
+    <state width="2005" height="392" key="GridCell.Tab.1.bottom" timestamp="1596838167280">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2005" height="392" key="GridCell.Tab.1.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1596838167280" />
+    <state width="2005" height="392" key="GridCell.Tab.1.center" timestamp="1596838167280">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2005" height="392" key="GridCell.Tab.1.center/0.0.2048.1152@0.0.2048.1152" timestamp="1596838167280" />
+    <state width="2005" height="392" key="GridCell.Tab.1.left" timestamp="1596838167280">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2005" height="392" key="GridCell.Tab.1.left/0.0.2048.1152@0.0.2048.1152" timestamp="1596838167280" />
+    <state width="2005" height="392" key="GridCell.Tab.1.right" timestamp="1596838167280">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2005" height="392" key="GridCell.Tab.1.right/0.0.2048.1152@0.0.2048.1152" timestamp="1596838167280" />
+    <state x="55" y="93" width="1830" height="956" key="MergeDialog" timestamp="1596941253704">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="55" y="93" width="1830" height="956" key="MergeDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1596941253704" />
+    <state x="913" y="444" width="388" height="263" key="MultipleFileMergeDialog" timestamp="1596941255315">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="913" y="444" width="388" height="263" key="MultipleFileMergeDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1596941255315" />
+    <state x="505" y="151" key="SettingsEditor" timestamp="1596938332717">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="505" y="151" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1596938332717" />
+    <state x="787" y="292" key="VCS.ChangeListViewerDialog" timestamp="1596844083510">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="787" y="292" key="VCS.ChangeListViewerDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1596844083510" />
+    <state x="617" y="309" key="Vcs.Push.Dialog.v2" timestamp="1597000322707">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="617" y="309" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1597000322707" />
+    <state x="426" y="324" key="caller.chooser.dialog" timestamp="1596926905171">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="426" y="324" key="caller.chooser.dialog/0.0.2048.1152@0.0.2048.1152" timestamp="1596926905171" />
+    <state x="829" y="445" key="classpath-attribute-editor" timestamp="1596935768260">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="829" y="445" key="classpath-attribute-editor/0.0.2048.1152@0.0.2048.1152" timestamp="1596935768260" />
+    <state x="754" y="468" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1596050330681">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="754" y="468" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2048.1152@0.0.2048.1152" timestamp="1596050330681" />
+    <state x="838" y="341" width="379" height="463" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597123515779">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="838" y="341" width="379" height="463" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1152@0.0.2048.1152" timestamp="1597123515779" />
+    <state x="1358" y="238" width="538" height="467" key="extract.method.dialog" timestamp="1596488457020">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1358" y="238" width="538" height="467" key="extract.method.dialog/0.0.2048.1152@0.0.2048.1152" timestamp="1596488457020" />
+    <state x="787" y="289" key="git4idea.branch.GitSmartOperationDialog" timestamp="1596762670992">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="787" y="289" key="git4idea.branch.GitSmartOperationDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1596762670992" />
+    <state x="818" y="324" key="refactoring.ChangeSignatureDialog" timestamp="1596926869584">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="818" y="324" key="refactoring.ChangeSignatureDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1596926869584" />
+    <state x="682" y="269" key="run.anything.popup" timestamp="1596853653283">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="682" y="269" key="run.anything.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1596853653283" />
+    <state x="687" y="253" width="672" height="678" key="search.everywhere.popup" timestamp="1596840581277">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="687" y="253" width="672" height="678" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1596840581277" />
+  </component>
+</project>

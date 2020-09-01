@@ -1,0 +1,24 @@
+Features:
+ - Automatically removes any invalid trade requests
+ - Able to search for traders and items
+ - Messaging between any two users
+ - Ratings for any trader
+ - Automatic trade suggestions. There are two algorithms we implemented to do this:
+        - One algorithm compares wishlist items in your trader with the inventory of any other trader and
+          returns a trade if it found two exact matches. This makes it so that all users involved in the trade
+          are perfectly happy with the results.
+        - The second algorithm also compares wishlist items in your trader with the inventory of any other trader and
+          instead returns a trade if it found two similar (not exactly the same) items. This gurantees that the two
+          traders in the trade are more or less happy with the results.
+ - The ability to change username, password, and city as a trader
+ - Password is validated so it has to meet certain requirements (certain length, needs upper case, needs symbol)
+ - Idle status, a status that prevents you from trading and makes it so you don’t show up in the system as a trader.
+   This can be toggled by the trader without admin approval as long as there are no ongoing trades.
+   The idea of this is to go "hidden" in the system so other people know you're inactive.
+ - Reports, users can report another user (essentially just sending a message to the admins)
+ - Demo user that can’t trade but can use the program like a trader, although none of the buttons that require an account
+   actually work (such as sending messages, starting a trade)
+ - Every admin can "infiltrade" a trader. This makes them take control of the account, allowing them to perform any actions
+   that same trader could do. This gives the admin the ability to undo certain actions taken by the trader.
+ - Every admin can undo an ongoing trade.
+ - Ability for the admin to adjust settings related to limits in trading

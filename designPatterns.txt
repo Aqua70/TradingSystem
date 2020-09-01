@@ -1,0 +1,33 @@
+Factory design pattern:
+LoginManager - When registering for a new user, the type of user is specified when registering and an instance of that
+specific user type is created and added to the system's database. This obscures the creation process for any new user,
+reducing coupling between the LoginManager and other classes.
+
+
+Dependency injection pattern:
+Admin - contains a list of Report objects without instancing them
+Trader - contains a list of Review objects without instancing them
+This makes it so both classes are less coupled with the Review and Report classes because
+they don't have to deal with instancing them.
+
+
+Strategy Design Pattern:
+SuggestLendStrategy - Classes that implement this interface are guaranteed to have a method that creates a lend suggestion
+using a certain algorithm. These classes can be passed down to the suggestLend method in TradingInfoManager to create
+a trade suggestion using the specified algorithm.
+SuggestTradeStrategy - Classes that implement this interface are guaranteed to have a method that creates a trade suggestion
+using a certain algorithm. These classes can be passed down to the suggestTrade method in TradingInfoManager to create
+a trade suggestion using the specified algorithm.
+
+For the two strategies listed above, ExactWishlistSuggestion and SimilarWishlistSuggestion implement both of these
+interfaces. By implementing this design pattern, we are able to decouple the implementation of the algorithms from the entire
+TradinginfoManager class and instead put the two strategies into their own separate classes. This helps make the program
+more extensible as we can now add any trade/lend suggestion algorithm we desire without modifying the TradinginfoManager class.
+
+
+Facade Design Pattern:
+TraderPanel - This class is responsible for multiple actors, including SearchPanel, TradePanel, ItemsPanel, NotificationsPanel
+and SettingsPanel. The purpose of this class is to combine all these different actors into one coherent class, and arrange
+them in such a way so that they are presentable to the user. By using this design pattern, we are able to reduce
+the size of our individual classes and better follow the single-responsibility principle in SOLID design.
+

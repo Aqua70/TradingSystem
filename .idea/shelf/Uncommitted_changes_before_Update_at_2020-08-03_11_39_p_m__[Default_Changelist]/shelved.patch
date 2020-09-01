@@ -1,0 +1,19 @@
+Index: src/backend/tradesystem/trader.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#\r\n#Mon Aug 03 20:00:56 EDT 2020\r\nlastTradeCountUpdate=2639\r\ndefaultMinimumAmountNeededToBorrow=1\r\ndefaultTradeLimit=10\r\ndefaultIncompleteTradeLim=3\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1252
+===================================================================
+--- src/backend/tradesystem/trader.properties	(revision 5f9892a87e0424875074d520403208279d7fee79)
++++ src/backend/tradesystem/trader.properties	(date 1596512213090)
+@@ -1,6 +1,6 @@
+ #
+-#Mon Aug 03 20:00:56 EDT 2020
++#Mon Aug 03 23:36:53 EDT 2020
+ lastTradeCountUpdate=2639
+-defaultMinimumAmountNeededToBorrow=1
+-defaultTradeLimit=10
+ defaultIncompleteTradeLim=3
++defaultTradeLimit=10
++defaultMinimumAmountNeededToBorrow=1
